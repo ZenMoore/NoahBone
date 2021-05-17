@@ -8,9 +8,10 @@ Realization of some key models, or rather the common backbones.
 - hotspot : recent popular work such as MLP/transformer/MoCo/etc.
 
 ## Checklist
-- [ ] Compressive Sensing
+- [x] Compressive Sensing
+- [ ] Support Vector Machine
 - [ ] waiting for more...
 
 ## About
-[ZenMoore@BUAA](github.com/ZenMoore) is a junior, supervised by Prof. Zhoujun Li.<br>
+[ZenMoore@BUAA](https://github.com/ZenMoore) is a junior, supervised by Prof. Zhoujun Li.<br>
 This project is to exercise my own code ability, so as to adapt to the follow-up research and development work, and hope to be made public as a library of collection.
