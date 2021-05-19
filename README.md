@@ -1,5 +1,5 @@
 # NoahBone
-Realization of some key models, or rather the common backbones.
+Implementation of some key models, or rather the common backbones.
 
 ## Structure
 - ML-based : machine learning methods such as SVM/LR/etc.
