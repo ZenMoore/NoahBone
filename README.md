@@ -5,12 +5,20 @@ Realization of some key models, or rather the common backbones.
 - ML-based : machine learning methods such as SVM/LR/etc.
 - DL-based : deep learning methods such as LSTM/CNN/etc.
 - RL-based : reinforcement learning methods such as TD/actor-critic/etc.
-- hotspot : recent popular work such as MLP/transformer/MoCo/etc.
+- hotspot : recent popular work such as MLP/transformer/FPN/etc.
 
 ## Checklist
 - [x] Compressive Sensing
+- [x] Logistic Regression
+- [ ] Softmax Regression (will be merged with logistic regression)
 - [ ] Support Vector Machine
 - [ ] waiting for more...
+
+## Note
+For simple algos like CS(compressive sensing)/LR(logistic regression)/etc.:\
+The configuration is simply set in the code file as global attributes\
+For complex algos like RNN/CNN/etc.:\
+The configuration is set in the .conf file or .yaml file.
 
 ## About
 [ZenMoore@BUAA](https://github.com/ZenMoore) is a junior, supervised by Prof. Zhoujun Li.<br>
