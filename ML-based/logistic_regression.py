@@ -61,7 +61,7 @@ def stoc_grad_descent(x_train, y_train):
         y = sigmoid(np.matmul(weights.T, x))
         residual = y - y_train[index]
         #  formula of gradient for cross entropy loss, proof see https://zhuanlan.zhihu.com/p/28415991
-        gradient = x * residual  # shape: (5,) * (5,) = (5,)
+        gradient = x * residual  # shape: (5,) * () = (5,)
         weights = weights - lr * gradient
     np.savetxt(param_path, weights)
     return weights
@@ -113,10 +113,7 @@ if __name__ == '__main__':
     weights = grad_descent(x_train, y_train)
     # weights = stoc_grad_descent(x_train, y_train)
     # weights = np.loadtxt(param_path)
-    # print(weights)
     accuracy = test(x_test, y_test, weights)
     print('2-classification accuracy is %f' % accuracy)
     print('one example : %s@%s' % (inference(x_test[0],weights), y_test[0]))
     # visualize(x_test, y_test, weights)
-
-
