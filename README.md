@@ -11,6 +11,7 @@ Implementation of some key models, or rather the common backbones.
 - [x] Compressive Sensing : IRLS, OMP, IHT
 - [x] Logistic Regression & Softmax Regression
 - [ ] Support Vector Machine
+- [ ] Radial Basis Function
 - [ ] waiting for more...
 
 ## Note
