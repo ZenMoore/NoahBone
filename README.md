@@ -1,11 +1,11 @@
 # NoahBone
-Implementation of some key models, or rather the common backbones.
+Implementation of some basic models (not call to high-level toolkit, but low-level implementation).
 
 ## Structure
-- ML-based : machine learning methods such as SVM/LR/etc.
-- DL-based : deep learning methods such as LSTM/CNN/etc.
-- RL-based : reinforcement learning methods such as TD/actor-critic/etc.
-- hotspot : recent popular work such as MLP/transformer/FPN/etc.
+- machine_learning : such as SVM/LR/etc.
+- deep_learning : such as LSTM/CNN/ResNet/etc.
+- reinforcement_learning : such as TD/actor-critic/etc.
+- misc : recent popular work such as MLP/transformer/FPN/etc.
 
 ## Checklist
 - [x] Compressive Sensing : IRLS, OMP, IHT
@@ -21,5 +21,4 @@ For complex algos like RNN/CNN/etc.:\
 The configuration is set in the .conf file or .yaml file.
 
 ## About
-[ZenMoore@BUAA](https://github.com/ZenMoore) is a junior, supervised by Prof. Zhoujun Li.<br>
-This project is to exercise my own code ability, so as to adapt to the follow-up research and development work, and hope to be made public as a library of collection.
+[ZenMoore@BUAA](https://github.com/ZenMoore) is a senior, advised by Prof. Zhoujun Li.
