@@ -7,6 +7,8 @@ from PIL import Image
 Configuration
 '''
 img_size = 256
+
+
 '''
 Fondamental math-objs
 '''

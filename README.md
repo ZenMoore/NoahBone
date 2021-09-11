@@ -5,13 +5,16 @@ Implementation of some basic models (not call to high-level toolkit, but low-lev
 - machine_learning : such as SVM/LR/etc.
 - deep_learning : such as LSTM/CNN/ResNet/etc.
 - reinforcement_learning : such as TD/actor-critic/etc.
-- misc : recent popular work such as MLP/transformer/FPN/etc.
+- hot : recent popular work such as MLP/transformer/FPN/etc.
+- misc : miscellaneous algorithms such as viterbi/etc.
 
 ## Checklist
 - [x] Compressive Sensing : IRLS, OMP, IHT
 - [x] Logistic Regression & Softmax Regression
+- [ ] Hidden Markov Model
 - [ ] Support Vector Machine
 - [ ] Radial Basis Function
+- [ ] Expectation-Maximization
 - [ ] waiting for more...
 
 ## Note
