@@ -175,10 +175,9 @@ def viterbi(words):
     former = iT
     for t in range(T-3, 0, -1):
         res.append(psis[t+1][res[-1]])
-        print(all_tags[psis[t+1][res[-1]]])
-    print(len(res))  # T - 2, drop begin_token and end_token
     res.reverse()
     return [all_tags[i] for i in res]
 
-print(len(words))
 print(' '.join(words[1:-1]) + ' : ' + ' '.join(viterbi(words)), end=' : viterbi\n')
+
+# todo : why is the performance too bad ? (viterbi)
