@@ -24,4 +24,4 @@ For complex algos like RNN/CNN/etc.:\
 The configuration is set in the .conf file or .yaml file.
 
 ## About
-[ZenMoore@BUAA](https://github.com/ZenMoore) is a senior, advised by Prof. Zhoujun Li.
+[ZenMoore@BUAA](https://github.com/ZenMoore) is a senior.
